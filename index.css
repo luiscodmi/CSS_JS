@@ -1,0 +1,10 @@
+.main-checks {
+  display: flex;
+  gap: 2rem;
+  white-space: nowrap;
+}
+
+.option-checks, .election-checks {
+  display: flex;
+  flex-direction: column;
+}
