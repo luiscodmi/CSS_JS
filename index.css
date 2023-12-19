@@ -1,0 +1,19 @@
+table {
+  border-collapse: collapse
+}
+
+td {
+  border: solid 1px grey;
+  padding: .5rem 1rem;
+}
+
+.main-checks {
+  display: flex;
+  gap: 2rem;
+  white-space: nowrap;
+}
+
+.option-checks, .election-checks {
+  display: flex;
+  flex-direction: column;
+}
