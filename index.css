@@ -1,0 +1,104 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+}
+
+.header * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: inline;
+    width: 100vw;
+    font-size: 3.5rem;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.div-header {
+    background-color: rgb(75, 167, 233);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;            
+    padding: 0rem 3rem;
+}
+
+.info-perfil, p, b {
+    font-size: 1rem;
+    text-align: end;
+}
+
+.nav-header {
+    background-color: rgb(4, 63, 63);
+    height: 1.5rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;            
+    padding: 0rem 3rem;
+    color: aliceblue;
+}
+
+.aside {
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 2;
+    width: 16rem;
+    height: calc(100vh - 8rem);
+    margin-left: 3rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search-aside {
+    width: 12rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    font-size: 16px;
+    border: 0;
+    padding: 0;
+}
+
+.input::after { /* aquí fue donde traté de hacer el pico (la punta) del buscador */
+    height: 0;
+    width: 0;
+}
+
+.search-main {
+    margin-top: 4rem;
+    width: 50rem;
+    height: 2rem;
+    border: none;
+    border-bottom: .2rem solid;
+}
+
+a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background: rgb(231, 204, 181);
+}
+
+a:active {
+    background: yellow;
+}
+
+.div-content-page {
+    background-color: #e5e6e7;
+    position: fixed;
+    top: 6.5rem;
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - 6.5rem);
+    z-index: 1;
+    padding-left: 21rem;
+    display: flex;
+    flex-direction: column;
+}
